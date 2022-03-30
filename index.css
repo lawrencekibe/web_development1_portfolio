@@ -1,6 +1,12 @@
 *{
      font-size: 1.2rem;
      letter-spacing: 0.1em;
+     margin:0;
+     box-sizing: border-box;
+}
+
+body{
+    background-color: ivory;
 }
 
 p{color: white;}
@@ -8,7 +14,18 @@ p{color: white;}
 h1{
     color: white;
 }
+.navbar{
+    background-color:#00251a;
+    padding: 0.5em;
+}
 
+.nav-link{
+    color:#fff;
+    border: 0.1em solid green;
+    margin: 0.2em;
+    padding: 0.2em;
+
+}
 a {
 text-decoration: none;
 }
